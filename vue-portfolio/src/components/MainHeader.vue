@@ -1,7 +1,7 @@
 <script>
 import HeaderComponent from "@/components/HeaderComponent.vue";
 import SelfIntroComponent from "@/components/SelfIntroComponent.vue";
-import NewsletterComponent from "@/components/NewsletterComponent.vue";
+import ContactComponent from "@/components/ContactComponent.vue";
 import SkillsComponent from "@/components/SkillsComponent.vue";
 import ProjectListComponent from "@/components/ProjectListComponent.vue";
 import FooterComponent from "@/components/FooterComponent.vue";
@@ -15,7 +15,7 @@ export default {
   components: {
     HeaderComponent,
     SelfIntroComponent,
-    NewsletterComponent,
+    ContactComponent,
     SkillsComponent,
     ProjectListComponent,
     FooterComponent,
@@ -28,7 +28,7 @@ export default {
     <SelfIntroComponent :websiteName="websiteName"/>
 
 
-    <NewsletterComponent :websiteName="websiteName"/> 
+    <ContactComponent :websiteName="websiteName"/> 
 
 
     <SkillsComponent :websiteName="websiteName"/> 

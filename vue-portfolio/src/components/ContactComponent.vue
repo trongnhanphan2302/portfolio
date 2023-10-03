@@ -7,7 +7,7 @@ export default {
 </script>
 
 <template>
-  <!--Newsletter Signup Section-->
+  <!--Contact Section-->
   <section class="col-12 col-s-12 contact">
     <h2 class="col-6 col-s-6">
       Contact with me
